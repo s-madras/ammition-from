@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<title>This is Registation From</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+   <div class="container">
+
+   	<div class="row">
+    	<form action="style.php" method="POST">
+				<div class="col" style="color: #5495BD; margin-bottom: -140px; border: 50px solid white;"><h2><b>স্টুডেন্ট এডমিশন ফরম</b></h2></div></div><br><br>
+        
+   		<figure class="input-img">
+   			<input type="img" id="img" class ="img" name="img" placeholder="ছবি প্রবেশ করান">
+   			    <button class="btn" style="float: right; " type="submit" onclick="document.getElementById('img').src = 'img/th.JFIF'">Enter</button>
+   	
+   				
+   		</figure>
+        <div class="row">
+					<div class="col col-sm-2"  style="padding-top: 20px; float: right;">
+						<label>সেশন</label>
+			          <select class="form-control" name="session">
+			             	<option>২০১৯</option>
+			             	<option>২০২০</option>
+			             	<option>২০২১</option>
+			             	<option>২০২২</option>
+			             	<option>২০২৩</option>
+			             	<option>২০২৪</option>
+			             	<option>২০২৫</option>
+			             	<option>২০২৬</option>
+			             	<option>২০২৭</option>
+			             	<option>২০২৮</option>
+			             	<option>২০২৯</option>
+			             	<option>২০৩০</option>
+			             	<option>২০৩১</option>
+			             </select>
+				</div>
+				<div></div>
+
+   		<div class="row">
+					<div class="col col-sm-6"  style="padding-top: 20px;">
+						<label class="col col-sm-3">নামঃ(বাংলায়)</label>
+						<input class="form-control" type="text" name="st_b_name" placeholder="ছাত্র/ছাত্রীর বাংলায় নাম প্রবেশ করান">
+					</div>
+
+				</div><br>
+
+				<div class="row">
+					<div class="col col-sm-6">
+						<label>নামঃ(ইংরেজিতে)</label>
+						<input class="form-control" type="text" name="st_e_name" placeholder="নামঃ(ইংরেজিতে)">
+					</div>
+				</div><br>
+				<div class="row">
+					<div class="col col-sm-6">
+						<label>পিতার নামঃ  </label>
+						<input class="form-control" type="text" name="FN_bangla" placeholder="পিতার নাম প্রবেশ করান">
+					</div>
+			</div><br>
+				<div class="row">
+					<div class="col col-sm-6">
+						<label>মাতর নামঃ  </label>
+						<input class="form-control" type="text" name="MN_enghish" placeholder="বাংলায় মাতার নাম প্রবেশ করান">
+					</div></div><br>
+
+				<div class="row">
+
+					<div class="col col-sm-6">
+						<label>ইমেইল</label>
+						<input class="form-control" type="Email" name="email" placeholder="................................................@gmail.com">
+					</div>
+				</div><br>
+
+				<div class="row">
+					<div class="col col-sm-6">
+						<label>জন্ম সনদ নংঃ</label>
+						<input class="form-control" type="number/text" name="d_f_b_number" placeholder="জন্ম সনদ নংঃ">
+				    </div>
+				</div><br>
+
+				<div class="row">
+					<div class="col col-sm-6">
+						<label>জন্ম তারিখঃ</label>
+						<input class="form-control" type="Date" name="date_of_birth" placeholder="জন্ম তারিখ">
+				    </div></div><br>
+				    <div class="row">
+				        <div class="col col-sm-6">
+					      <label>পূর্বের শ্রণী রোল:(যদি থাকে)</label>
+						  <input class="form-control" type="number/password" name="e-roll" placeholder="পূর্বের শ্রেণী রোল প্রবেশ করান">
+					    </div>
+				    </div><br>
+
+                      <div class="row">
+                       <div class="col col-sm-6">
+                        	<label>পূর্বের শ্রেণীর রেজিস্ট্রেশন নংঃ(যদি থাকে)</label>
+						<input class="form-control" type="number/password" name="e_r_roll" placeholder="পূর্বের শ্রেণী রেজিস্ট্রেশন নং(যদি থাকে)">
+				       </div>
+				     </div><br>
+
+                     <div class="row">
+                       <div class="col col-sm-6">
+                        	<label>পূর্বের বিদ্যালয়ের নামঃ</label>
+						<input class="form-control" type="number/password" name="e_n_school" placeholder="পূর্বের বিদ্যালয়ের নাম প্রবেশ করান">
+				       </div>
+				     </div><br>
+
+				      <div class="row">
+                       <div class="col col-sm-6">
+                        	<label>পূর্বের বিদ্যালয়ের টি.সি.কপি</label>
+						<input class="form-control" type="text" name="t_c" placeholder="পূর্বের বিদ্যালয়ের টি সি প্রবেশ করান">
+				       </div>
+				     </div><br>
+				      <div class="row">
+                       <div class="col col-sm-6">
+                        	<label>পূর্বের শ্রেণীর ফলাফল</label>
+						<input class="form-control" type="text" name="e_sum" placeholder="পূর্বের শ্রেণী ফলাফল প্রবেশ করান">
+				       </div>
+				     </div><br>
+
+				 <div class="row">
+					<div class="col col-sm-6">
+						<label>যে শ্রেণীতে ভর্তি হতে ইচ্ছুক</label>
+						<select class="form-control" type="number/text" name="class" placeholder="শ্রেণীঃ">
+                              <option>৬ষ্ঠ</option>
+                              <option>৭ম</option>
+                              <option>৮ম</option>
+                              <option>৯ম</option>
+                              <option>১০ম</option>
+                              <option>্ভোকেশনাল ৯ম</option>
+                              <option>্ভোকেশনাল ১০ম</option>
+						</select>
+				      </div>
+                        <br>
+                 <div class="row">
+                 	<div class="col col-sm-10" >
+                 		 <button name="button" class="submit-btn" type="submit"><b><h2>জমা</h2></b></button>
+
+                 	</div>
+   		
+   	</form>
+   	
+   </div>
+
+
+
+   <script>
+   	function function_name() {
+     	document.getElementById('img').innerHTML = 
+     		var img = prompt(bolo("inter your img"));
+         document.write(img);
+
+     		
+   		
+   	}
+   </script>
+</body>
+</html>
